@@ -10,10 +10,14 @@ INSERT INTO projects (title, category, funding_goal, start_date, end_date) VALUE
 ("Music", "education", 1500, 02/01/2021, 07/01/2021),
 ("Scholarship", "admin", 4000, 01/01/2021, 01/01/2022);
 
+<<<<<<< HEAD
 INSERT INTO users (id, name, age) VALUES (1, 'Finnebar', 17), (2, 'Bear', 6), (3, 'Iguana', 4), (4, 'Alex', 33),
 (5, 'Amanda', 24), (6, 'Sophie', 24), (7, 'Rosey', 9), (8, 'Victoria', 23), (9, 'Franz', 100), (10, 'Hermione', 30),
 (11, 'Voldemort', 90), (12, 'Marisa', 24), (13, 'Swizzle', 4), (14, 'Sirius', 36), (15, 'Albus', 113), (16, 'Squid', 5),
 (17, 'Whale', 6), (18, 'Pacha', 5), (19, 'Ena', 24), (20, 'Katie', 24);
+=======
+
+>>>>>>> 5fa88976ce47a606839e3894c856f1fb0f1c7810
 
 INSERT INTO pledges (id, amount, user_id, project_id) VALUES
 (1, 10.00, 1, 2),
